@@ -12,7 +12,7 @@ let i = 0;
 while(i < tiramisu.length){    
     if("Latte" == tiramisu[i]){
         let li = document.createElement("li");
-        let user_preference = prompt("Prefisci con Latte scremato o non scremato?");
+        let user_preference = prompt("Preferisci con Latte scremato o non scremato?");
 
         li.innerText = tiramisu[i] + " " + "(" + user_preference + ")";         
         list.appendChild(li);
